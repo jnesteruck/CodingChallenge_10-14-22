@@ -1,3 +1,9 @@
+'''
+LinkedList classes based on Tutorial provided by Giorgos Myrianthous:
+https://towardsdatascience.com/python-linked-lists-c3622205da81
+
+'''
+
 class Node:
     def __init__(self, value, next_node=None, prev_node=None):
         self.value = value
